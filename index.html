@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronit | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #1f2937;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #111827;
+            border-left: 5px solid #2563eb;
+            padding-left: 10px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #e5e7eb;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            display: block;
+            margin-bottom: 10px;
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #111827;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Replace src with your photo link -->
+        <img src="https://via.placeholder.com/150" alt="Ronit Photo Placeholder">
+        <h1>Ronit</h1>
+        <p>Passionate Professional | Problem Solver | Growth-Oriented</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About</h2>
+        <div class="card">
+            <p>
+                I am a motivated and adaptable professional who believes in continuous growth and learning. 
+                I enjoy solving real-world problems, improving systems, and building meaningful connections. 
+                With a strong work ethic and dedication, I aim to contribute value wherever I work while 
+                constantly enhancing my skills and knowledge.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">Communication</div>
+            <div class="skill">Team Collaboration</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Leadership</div>
+            <div class="skill">Time Management</div>
+            <div class="skill">Adaptability</div>
+            <div class="skill">Critical Thinking</div>
+            <div class="skill">Basic Web Knowledge</div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Professional Experience</h3>
+            <p><strong>Role:</strong> Add Your Role Here</p>
+            <p><strong>Organization:</strong> Add Organization Name</p>
+            <p><strong>Duration:</strong> Add Duration</p>
+            <p>
+                Briefly describe your responsibilities, achievements, and impact here.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Project Title</h3>
+            <p>
+                Short description of your project. Explain what you built, the technologies used,
+                and the outcome.
+            </p>
+            <p><a href="#" target="_blank">Project Link (Add URL)</a></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card contact">
+            <a href="tel:9624909118">📞 Phone: 9624909118</a>
+            <a href="#">📧 Email: your-email@example.com</a>
+            <a href="#">🔗 LinkedIn: Add Profile Link</a>
+            <a href="#">🌐 Portfolio: Add Website Link</a>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Ronit. All rights reserved.
+    </footer>
+
+</body>
+</html>
